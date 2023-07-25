@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,200;0,300;1,300;1,600;1,700;1,800&display=swap');
+
+@font-face {
+    font-family: fontDroid;
+    src: url('fontes/idroid.otf') format(opentype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Declaração de variáveis*/
+:root{
+    --cor1:#19A812;
+    --cor2:#3818F5;
+    --cor3:#0CF500;
+    --cor4:#F57418;
+    --cor5:#A84B08;
+
+    --fontTitle:'Ysabeau Infant', sans-serif;
+}
+
+body{
+    background-color: #064203b2;
+    font-family: var(--fontTitle);
+    color: black;
+    font-weight: 600;
+    /*overflow-x: hidden;*/
+}
+
+header{
+    background-image: linear-gradient(to top, #052c03c9, #09750493 );
+    height: 12.5em;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+    font-size: 3em;
+    color: white;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.7);
+    font-weight: normal;
+}
+
+header > p{
+    text-align: center;
+    color: rgb(209, 209, 209);
+    font-size: 1.2em;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 30px;
+}
+nav{
+    background-color: #043501;
+    padding: 10px;
+    box-shadow:1px 3px 5.5px rgba(0, 0, 0, 0.7);
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0em 1.5em 0em 0em;
+    font-size: 1.1em;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.05em;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: var(--cor5);
+    background-color:#0b8305d8;
+    padding: 7px;
+    transition-duration: 0.5s;
+    border-radius: 12px;
+}
+
+main article#artigoPrincipal{
+    max-width: 800px;
+    min-width: 412px;
+    background-color: rgba(255, 255, 255, 0.452);
+    margin: auto;
+    padding: 1em;
+    margin-top: 2px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+p{
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 13pt;
+    padding: 10px;
+}
+
+main article#artigoPrincipal h2{
+    font-family: fontDroid, sans-serif;
+    font-size: 1.5em;
+    color: #043501;
+}
+
+main article#artigoPrincipal h3{
+    font-family: fontDroid, sans-serif;
+    color: #065202;
+    background-image: linear-gradient(to right, #19A812, transparent);
+    padding: 2px;
+    text-indent: 5px;
+}
+main a{
+    color: #043501;
+}
+
+img{
+    width: 100%;
+}
+iframe{
+    display: block;
+    margin: auto;
+}
+
+section#final{
+    min-width: 412px;
+    max-width: 800px;
+    margin: auto;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.452);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+div#aprenderMais{
+    background-color: #19a8123a;
+    padding: 5px;
+    border-radius: 1em;
+}
+
+div#aprenderMais h4{
+    background-color: #064203b2;
+    padding:8px;
+    margin: -5px -5px 0px -5px;
+    text-align: center;
+    border-radius: 1em 1em 0em 0em;
+    padding-bottom: 14px;
+}
+
+div#aprenderMais ul{
+    list-style: none;
+    columns:2;
+    list-style-position: inside;
+}
+
+div#aprenderMais ul li::before{
+    content: "\e877";
+    font-family: "Material icons";
+    margin-right: 10px;
+}
+
+section#final a{
+        color: #043501;
+}
+
+.direita{
+    position: absolute;
+    margin: -155px 10px 0px 500px;
+}
+
+footer{
+    background-color: #043501;
+}
+
+footer p{
+    text-align: center;
+    margin: 0px;
+    font-size: 15pt;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+

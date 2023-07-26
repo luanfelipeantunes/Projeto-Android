@@ -51,7 +51,7 @@ header > p{
     color: rgb(209, 209, 209);
     font-size: 1.2em;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
-    padding: 47px;
+    padding: 3px;
 }
 nav{
     background-color: #043501;
@@ -83,7 +83,7 @@ nav a:hover{
 }
 
 main article#artigoPrincipal{
-    max-width: 770px;
+    max-width: 760px;
     min-width: 412px;
     background-color: rgba(255, 255, 255, 0.452);
     margin: auto;
@@ -138,7 +138,7 @@ img{
 
 section#final{
     min-width: 412px;
-    max-width: 770px;
+    max-width: 760px;
     margin: auto;
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.452);
